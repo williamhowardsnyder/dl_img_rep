@@ -1,5 +1,5 @@
 
-### Deep Learned Image Representations for Efficient Retrieval
+# Deep Learned Image Representations for Efficient Retrieval
 
 Reverse image search is the problem of efficiently finding similar images to a given query image. Traditional approaches to this problem involve using metadata of each image in the database (eg. tags, descriptions, etc.) and matching the query images metadata to those in the database. However, in this project we propose the use of a deep-learned feature extractor that creates compact and semantically rich representations of images, then performs similarity search across those representations. We find that our approach achieves up to 64.7% MAP@50 on ImageNet with as few as 32 dimensions.
 
