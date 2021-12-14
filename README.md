@@ -140,4 +140,4 @@ This project is based off research I am doing with Aditya Kusupati, Gary Geng, a
 
 [6] https://en.wikipedia.org/wiki/Locality-sensitive_hashing
 
-[7] https://arxiv.org/abs/1603.09320)
+[7] https://arxiv.org/abs/1603.09320
