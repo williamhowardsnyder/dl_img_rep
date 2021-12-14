@@ -75,7 +75,7 @@ In the plot above, we measure accuracy in terms of MAP@100\* and see how it vari
 
 This plot shows that the diminishing returns in accuracy we observed in *classification* is also present in image *retrieval*. We did expect more features to perform better in terms of image retrieval accuracy, however, the accuracy peaks for KD-trees at around 128 dimensions (and even earlier for the other data structures). This goes against our original hypothesis that more dimensions = better predictions. We suspect this is because 128 dimensions is sufficient for capturing the patterns in ImageNet data, and the rest of the dimensions are picking up noise.
 
-#### Query time:
+#### Query time
 
 ![image](https://user-images.githubusercontent.com/28711661/146095115-0dac537a-db89-4af5-bcac-2bfa92b5c5f4.png)
 
@@ -133,12 +133,12 @@ Before signing off, it's worth mentiioning that the accuracy metric we used esse
 
 For a small scale study with limited time, the MAP metric we used was a good choice. However, it would be interesting to design other accuracy measures that took into account the similarity between classes. One way we might do this is by using WordNet to group the labels of ImageNet into sub and super classes. Then, we could use these groupings to define a measure of class similarity by computing the distance from the query’s class to the predicted image’s class in the hierarchy. This metric would give us a better idea as to the quality of images retrieved.
 
-## Acknowledgements:
+## Acknowledgements
 
 This project is based off research I am doing with Aditya Kusupati, Gary Geng, and Jackson Stokes in the RAIVN Lab at the University of Washington. All the code to generate plots, and performance metrics was written primarily by me with some help from Gary Geng. Most of the code in the nested model was from a previous research project done by Aditya. However, I adapted the model to generate image representations.
 
 
-## Sources:
+## Sources
 
 [1] https://www.google.com/url?q=https://www.researchgate.net/publication/50366286_Metadata_for_Content-Based_Image_Retrieval&sa=D&source=docs&ust=1639102498913000&usg=AOvVaw29DBatE8sLSZgyuVFsE0nw
 
