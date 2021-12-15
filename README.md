@@ -5,6 +5,8 @@ Reverse image search is the problem of efficiently finding similar images to a g
 
 ## Video
 
+Sorry in advance for the poor audio quality :(
+
 [![Project Presentation](https://user-images.githubusercontent.com/28711661/146103636-4127bb6c-7044-4c68-8a53-11dd5805d605.png)](https://www.youtube.com/watch?v=DKBJ1tnALyY "Project Presentation")
 
 ## Introduction
