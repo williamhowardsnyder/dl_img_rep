@@ -5,7 +5,7 @@ Reverse image search is the problem of efficiently finding similar images to a g
 
 ## Video
 
-video incoming B)
+[![Alternate Text]({https://user-images.githubusercontent.com/28711661/146103636-4127bb6c-7044-4c68-8a53-11dd5805d605.png})]({video-url} "Project Presentation")
 
 ## Introduction
 
