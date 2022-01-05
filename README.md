@@ -3,11 +3,11 @@
 
 Reverse image search is the problem of efficiently finding similar images to a given query image. Traditional approaches to this problem involve using metadata of each image in the database (eg. tags, descriptions, etc.) and matching the query images metadata to those in the database. However, in this project we propose the use of a deep-learned feature extractor that creates compact and semantically rich representations of images, then performs similarity search across those representations. We find that our approach achieves up to 64.7% MAP@50 on ImageNet with as few as 32 dimensions.
 
-## Video
+<!-- ## Video
 
 Sorry in advance for the poor audio quality :(
 
-[![Project Presentation](https://user-images.githubusercontent.com/28711661/146103636-4127bb6c-7044-4c68-8a53-11dd5805d605.png)](https://www.youtube.com/watch?v=DKBJ1tnALyY "Project Presentation")
+[![Project Presentation](https://user-images.githubusercontent.com/28711661/146103636-4127bb6c-7044-4c68-8a53-11dd5805d605.png)](https://www.youtube.com/watch?v=DKBJ1tnALyY "Project Presentation") -->
 
 ## Introduction
 
